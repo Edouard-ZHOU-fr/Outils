@@ -92,6 +92,8 @@ def matching_traj_lanelet(input_traj,points_lanelet) ->dict:
 	# return dico_id_z
 	print_reussi("Les fichiers sont bien chargés")
 
+	
+	"""
 	# gilsser le trajectoire ci besoin (avec convolution_1d_padding) TODO
 	# zlist_traj_N = convolution_1d_padding(zlist_traj)
 	# for i in range(len(points_traj)) :
@@ -100,6 +102,8 @@ def matching_traj_lanelet(input_traj,points_lanelet) ->dict:
 	# y2 = np.array( zlist_traj_N )
 	# plt.subplot(2,1,2)
 	# plt.plot(x, y2, color = 'g')
+	"""
+
 
 	plt.show()
 
