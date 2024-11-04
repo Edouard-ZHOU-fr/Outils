@@ -24,7 +24,7 @@ def print_c(clignotant):
 #############################################################################
 
 
-input_file = "/home/hongyu/Videos/Screencasts/1.webm"
+input_file = "/home/hongyu/Videos/Screencasts/31_10.webm"
 output_file = "/home/hongyu/SETUP/larochelle/1.mp4"
 
 

@@ -9,8 +9,8 @@ import time
 #########################################################################################################
 
 
-input_traj = "traj.csv"
-input_lanelet2 = "Test.osm"
+input_traj = "/home/hongyu/Downloads/Traj_larochlle_Nord/rosbag2_2024_10_31-13_43_28/traj.csv"
+input_lanelet2 = "/home/hongyu/Downloads/Lanelet2/Lanelet2_git_ws/yeloData/lanelet2_map_YeloDeta_Total_V3.osm"
 
 
 #########################################################################################################
@@ -59,7 +59,7 @@ def matching_traj_lanelet(input_traj,points_lanelet) ->dict:
 	points_traj = []
 	ligne1 = True
 	dico_id_z = {}
-	min_dega = 0.1				#TODO
+	min_dega = 0.2				#TODO
 	zlist_traj = []
 
 	with open(input_traj, encoding='utf-8-sig') as f:
@@ -130,7 +130,7 @@ def KNN_traj(p1,p_s) ->float | bool :
 	p_s: points de trajectoire
 	max_distance: un seuil de distance maximum afin de définir qui sont les neighhbours.
 	"""
-	max_distance = 30			#TODO
+	max_distance = 6			#TODO
 	distance = []
 	for p2 in p_s:
 		distance1 = ((p2[0]-p1[1])**2+(p2[1]-p1[2])**2)**0.5
@@ -203,8 +203,11 @@ for node in nodes:
 		num_modifi += 1
 	else:
 		continue
-    
-domTree.write("out.osm",encoding="utf8")
+
+
+out_lanelet2 = input_lanelet2.replace(".osm", "_OUT.osm")
+print(out_lanelet2)
+domTree.write((out_lanelet2),encoding="utf8")
 print("Il y a %d points 3d total, dont %d points 3d sont déplacés"%(num_total,num_modifi))
 
 
