@@ -1,0 +1,277 @@
+{
+    "database": [
+        {
+            "name": "Bourgneuf-Calvaire",
+            "id": 1,
+            "latitude": 46.16991500016,
+            "longitude": -1.01799499991,
+            "altitude": 81.8317
+        },
+        {
+            "name": "Bourgneuf-Centre Bourg",
+            "id": 2,
+            "latitude": 46.16724099976,
+            "longitude": -1.02477400044,
+            "altitude": 83.5376
+        },
+        {
+            "name": "Bourgneuf-Les Gacheteries Aller",
+            "id": 3,
+            "latitude": 46.16208699967,
+            "longitude": -1.0219020003,
+            "altitude": 83.6985
+        },
+        {
+            "name": "Bourgneuf-Les Gacheteries Retour",
+            "id": 4,
+            "latitude": 46.16196600031,
+            "longitude": -1.02142999942,
+            "altitude": 84.1173
+        },
+        {
+            "name": "Bourgneuf-Stade",
+            "id": 5,
+            "latitude": 46.17027399974,
+            "longitude": -1.02055599991,
+            "altitude": 80.9037
+        },
+        {
+            "name": "Montroy-Mairie Aller",
+            "id": 6,
+            "latitude": 46.15589700018,
+            "longitude": -1.01305100044,
+            "altitude": 91.4649
+        },
+        {
+            "name": "Montroy-Mairie Retour",
+            "id": 7,
+            "latitude": 46.15633400037,
+            "longitude": -1.01345099988,
+            "altitude": 91.6089
+        },
+        {
+            "name": "Montroy-Treuil Aller",
+            "id": 8,
+            "latitude": 46.1456480001,
+            "longitude": -1.00717200033,
+            "altitude": 88.805
+        },
+        {
+            "name": "Montroy-Treuil Retour",
+            "id": 9,
+            "latitude": 46.14554300043,
+            "longitude": -1.00720099941,
+            "altitude": 88.687
+        },
+        {
+            "name": "Saint-Christophe Eglise Aller",
+            "id": 10,
+            "latitude": 46.14540699994,
+            "longitude": -0.94701000052,
+            "altitude": 65.4345
+        },
+        {
+            "name": "Saint-Christophe Eglise Retour",
+            "id": 11,
+            "latitude": 46.14547500025,
+            "longitude": -0.94736599939,
+            "altitude": 66.3995
+        },
+        {
+            "name": "Saint-Christophe Stade Aller",
+            "id": 12,
+            "latitude": 46.14194899992,
+            "longitude": -0.94367100057,
+            "altitude": 74.9805
+        },
+        {
+            "name": "Saint-Christophe Stade Retour",
+            "id": 13,
+            "latitude": 46.14210299956,
+            "longitude": -0.94363100047,
+            "altitude": 74.7121
+        },
+        {
+            "name": "Saint Medard-Le Verger Aller",
+            "id": 14,
+            "latitude": 46.15837999964,
+            "longitude": -0.97105200015,
+            "altitude": 72.4743
+        },
+        {
+            "name": "Saint Medard-Le Verger Retour",
+            "id": 15,
+            "latitude": 46.1583969996,
+            "longitude": -0.97099599951,
+            "altitude": 72.7646
+        },
+        {
+            "name": "Le Treuil Arnaudeau",
+            "id": 16,
+            "latitude": 46.17152700044,
+            "longitude": -1.00368699991,
+            "altitude": 86.277
+        },
+        {
+            "name": "Saint Medard Val-Pastour",
+            "id": 17,
+            "latitude": 46.15866999974,
+            "longitude": -0.97650100019,
+            "altitude": 74.8208
+        },
+        {
+            "name": "Salles-sur-Mer L'Aumonerie",
+            "id": 18,
+            "latitude": 46.11741600026,
+            "longitude": -1.02598600059,
+            "altitude": 59.9395
+        },
+        {
+            "name": "Salles-sur-Mer ZAC de L'Aubépin Aller",
+            "id": 19,
+            "latitude": 46.1211670003,
+            "longitude": -1.03782199937,
+            "altitude": 64.6838
+        },
+        {
+            "name": "Salles-sur-Mer ZAC de L'Aubépin Retour",
+            "id": 20,
+            "latitude": 46.12149800037,
+            "longitude": -1.03900700062,
+            "altitude": 64.8257
+        },
+        {
+            "name": "La Jarrie Grande Rue",
+            "id": 21,
+            "latitude": 46.11810999987,
+            "longitude": -1.02561899988,
+            "altitude": 59.9097
+        },
+        {
+            "name": "La Jarrie Le Puits",
+            "id": 22,
+            "latitude": 46.11535699997,
+            "longitude": -1.01796499997,
+            "altitude": 60.6346
+        },
+        {
+            "name": "La Clavette Croix-Fort Aller",
+            "id": 23,
+            "latitude": 46.13595099994,
+            "longitude": -1.01194799941,
+            "altitude": 86.3948
+        },
+        {
+            "name": "La Clavette Croix-Fort Retour",
+            "id": 24,
+            "latitude": 46.1359699998,
+            "longitude": -1.01187299961,
+            "altitude": 86.3327
+        },
+        {
+            "name": "Clavette Les Massardes Aller",
+            "id": 25,
+            "latitude": 46.14256399968,
+            "longitude": -1.03829699945,
+            "altitude": 71.4252
+        },
+        {
+            "name": "Clavette Les Massardes Retour",
+            "id": 26,
+            "latitude": 46.14261299984,
+            "longitude": -1.03833299957,
+            "altitude": 71.481
+        },
+        {
+            "name": "Clavette Mairie Aller",
+            "id": 27,
+            "latitude": 46.13890899985,
+            "longitude": -1.02700600039,
+            "altitude": 73.4233
+        },
+        {
+            "name": "Clavette Mairie Retour",
+            "id": 28,
+            "latitude": 46.13920900017,
+            "longitude": -1.02848199968,
+            "altitude": 72.7053
+        },
+        {
+            "name": "Croix-Chapeau-Boulangerie Aller",
+            "id": 29,
+            "latitude": 46.10942899998,
+            "longitude": -1.00653599959,
+            "altitude": 74.2016
+        },
+        {
+            "name": "Croix-Chapeau-Boulangerie Retour",
+            "id": 30,
+            "latitude": 46.10947699988,
+            "longitude": -1.00653599991,
+            "altitude": 74.2826
+        },
+        {
+            "name": "Croix-Chapeau-Rue du Chat Aller",
+            "id": 31,
+            "latitude": 46.11108000021,
+            "longitude": -1.01080699961,
+            "altitude": 68.227
+        },
+        {
+            "name": "Croix-Chapeau-Rue du Chat Retour",
+            "id": 32,
+            "latitude": 46.11120099966,
+            "longitude": -1.01091299971,
+            "altitude": 67.5455
+        },
+        {
+            "name": "La Jarrie-Chassagné",
+            "id": 33,
+            "latitude": 46.13186100028,
+            "longitude": -1.04429799952,
+            "altitude": 67.0955
+        },
+        {
+            "name": "Gare La Jarrie Aller",
+            "id": 34,
+            "latitude": 46.11914399958,
+            "longitude": -1.02452299983,
+            "altitude": 59.8918
+        },
+        {
+            "name": "Gare La Jarrie Retour",
+            "id": 35,
+            "latitude": 46.11931600021,
+            "longitude": -1.02450000058,
+            "altitude": 59.7537
+        },
+        {
+            "name": "La Jarrie Les Abeilles",
+            "id": 36,
+            "latitude": 46.12969099991,
+            "longitude": -1.00250299942,
+            "altitude": 84.629
+        },
+        {
+            "name": "La Jarrie-Les Deux Moulins Aller",
+            "id": 37,
+            "latitude": 46.13211300043,
+            "longitude": -1.01413999959,
+            "altitude": 85.5914
+        },
+        {
+            "name": "La Jarrie-Les Deux Moulins Retour",
+            "id": 38,
+            "latitude": 46.13231899971,
+            "longitude": -1.01381999953,
+            "altitude": 86.4207
+        },
+        {
+            "name": "Saint Rogatien",
+            "id": 39,
+            "latitude": 46.14856799956,
+            "longitude": -1.06279900063,
+            "altitude": 72.0195
+        }
+    ]
+}
