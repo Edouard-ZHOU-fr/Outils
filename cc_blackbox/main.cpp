@@ -5,9 +5,8 @@
 #include <ctime>
 #include <limits>  // utiliser pour chercher les max du dossier
 #include <cmath> 
-
-#include <iostream>
 #include <fstream>
+
 #include <json.hpp>
 
 namespace fs = std::filesystem;
@@ -20,6 +19,12 @@ std::tm stringToTime(const std::string& timeStr) {
     std::istringstream ss(timeStr);
     ss >> std::get_time(&tmTime, "%Y-%m-%d-%H-%M-%S"); // 解析时间格式
     return tmTime;
+}
+
+
+std::string getPrefix(const std::string& fileName) {
+    size_t pos = fileName.find('_'); // 找到第一个 "_"
+    return (pos != std::string::npos) ? fileName.substr(0, pos) : fileName;
 }
 
 // 提取文件名中的时间部分
@@ -74,7 +79,7 @@ int getMinuteDifference(const std::tm& t1, const std::tm& t2) {
 }
 
 // 筛选距离要求时间之前最近的最后一个文件
-void findFileClosestBeforeTargetTime(const std::string& folderPath, const std::string& targetTimeStr,std::string& rp_cible, int&  min_deviato) {
+void findFileClosestBeforeTargetTime(const std::string& folderPath, const std::string& targetTimeStr,std::string& rp_cible, int&  min_deviato,std::string& type_log) {
     std::tm targetTime = stringToTime(targetTimeStr); // 转换为 std::tm
 
     std::string closestFile;
@@ -83,6 +88,11 @@ void findFileClosestBeforeTargetTime(const std::string& folderPath, const std::s
     for (const auto& entry : fs::directory_iterator(folderPath)) {
         std::string filename = entry.path().filename().string();
         std::string fileTimeStr = extractTimeFromFilename(filename);
+        std::string filePrefix = getPrefix(filename);
+
+        if (filePrefix != type_log){
+            continue;
+        }
 
         if (!fileTimeStr.empty()) {
             std::tm fileTime = stringToTime(fileTimeStr);
@@ -122,6 +132,8 @@ int main() {
     std::string rp_f_cible = "";
     std::string partialName = "";
     std::string rp_destin; // 指定的目标时间
+    std::string type_log; // 指定的目标时间
+
 
     json config;
     int min_deviato = 0;
@@ -137,9 +149,10 @@ int main() {
     folderPath = config["source_BlackBox"];
     targetTimeStr = config["temp_incidant"];
     rp_destin = config["Destination"];
+    type_log = config["Type"];
 
 
-    findFileClosestBeforeTargetTime(folderPath, targetTimeStr,rp_d_cible,min_deviato);
+    findFileClosestBeforeTargetTime(folderPath, targetTimeStr,rp_d_cible,min_deviato,type_log);
     n_fichier = std::abs(min_deviato/5);
     partialName = rp_d_cible+"_"+std::to_string(n_fichier);
     rp_d_cible = folderPath+rp_d_cible+"/";
