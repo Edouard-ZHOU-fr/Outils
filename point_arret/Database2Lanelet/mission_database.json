@@ -1,0 +1,505 @@
+{
+    "database" :
+    [
+        {
+            "name" : "Bourgneuf-Calvaire",
+            "id" : 1,
+            "latitude": 46.1699189867,
+            "longitude": -1.017983987,
+            "altitude" : 82.083165,
+            "yaw": 3.0380
+        },
+        {
+            "name" : "Bourgneuf-Centre Bourg Aller",
+            "id" : 2,
+            "latitude": 46.167241,
+            "longitude": -1.024774,
+            "altitude" : 83.5376,
+            "yaw": 1.1317477
+        },
+        {
+            "name" : "Bourgneuf-Les Gacheteries Aller",
+            "id" : 3,
+            "latitude": 46.162087,
+            "longitude": -1.021902,
+            "altitude" : 83.6985,
+            "yaw": -0.4338956
+        },
+        {
+            "name" : "Bourgneuf-Les Gacheteries Retour",
+            "id" : 4,
+            "latitude": 46.161966,
+            "longitude": -1.02143,
+            "altitude" : 84.11726,
+            "yaw": 2.7269645 
+        },
+        {
+            "name" : "Bourgneuf-Stade",
+            "id" : 5,
+            "latitude": 46.17028017028984,
+            "longitude": -1.0206036739217,
+            "altitude" : 80.9017,
+            "yaw": 3.04236
+        },
+        {
+            "name" : "Montroy-Mairie Aller",
+            "id" : 6,
+            "latitude": 46.155897,
+            "longitude": -1.013051,
+            "altitude" : 91.4649,
+            "yaw": -0.5081004
+        },
+
+        {
+            "name":"Montroy-Mairie Retour",
+            "id":7,
+            "latitude":46.156408,
+            "longitude":-1.013468,
+            "altitude":92.08064681370966,
+            "yaw":2.2283
+        },
+        {
+            "name" : "Saint-Christophe Eglise Aller",
+            "id" : 10,
+            "latitude": 46.145407,
+            "longitude": -0.94701,
+            "altitude" : 65.4345,
+            "yaw": -0.1534894
+        },
+        {
+            "name" : "Saint-Christophe Eglise Retour",
+            "id" : 11,
+            "latitude": 46.145475,
+            "longitude": -0.947366,
+            "altitude" : 66.3995,
+            "yaw": 2.9941599
+        },
+        {
+            "name" : "Saint-Christophe Stade Aller",
+            "id" : 12,
+            "latitude": 46.141949,
+            "longitude": -0.943671,
+            "altitude" : 74.98049,
+            "yaw": -1.6012355
+        },
+        {
+            "name" : "Saint-Christophe Stade Retour",
+            "id" : 13,
+            "latitude": 46.142103,
+            "longitude": -0.943631,
+            "altitude" : 74.71205,
+            "yaw": 1.6238754
+        },
+        {
+            "name" : "Saint Medard-Le Verger Aller",
+            "id" : 14,
+            "latitude": 46.15838,
+            "longitude": -0.971052,
+            "altitude" : 72.4743,
+            "yaw": -0.0841722
+        },
+        {
+            "name" : "Saint Medard-Le Verger Retour",
+            "id" : 15,
+            "latitude": 46.158397,
+            "longitude": -0.970996,
+            "altitude" : 72.7646,
+            "yaw": 3.0516678
+        },
+
+
+        {
+            "name" : "Salles-sur-Mer L'Aumonerie",
+            "id" : 18,
+            "latitude": 46.11738505,
+            "longitude": -1.0260433,
+            "altitude" : 60.1395,
+            "yaw": -2.4733091
+        },
+        {
+            "name" : "Salles-sur-Mer ZAC de L'Aubépin Aller",
+            "id" : 19,
+            "latitude": 46.121153,
+            "longitude": -1.037895,
+            "altitude" : 64.68378,
+            "yaw": -0.3231982
+        },
+        {
+            "name" : "Salles-sur-Mer ZAC de L'Aubépin Retour",
+            "id" : 20,
+            "latitude": 46.121486,
+            "longitude": -1.038817,
+            "altitude" : 64.8257,
+            "yaw": 2.8162588
+        },
+        {
+            "name" : "La Jarrie Grande Rue",
+            "id" : 21,
+            "latitude": 46.117573926,
+            "longitude": -1.02394420945,
+            "altitude" : 59.5412278,
+            "yaw": -0.4320061
+        },
+        {
+            "name" : "La Jarrie Le Puits",
+            "id" : 22,
+            "latitude": 46.115671,
+            "longitude": -1.01867,
+            "altitude" : 60.6346,
+            "yaw": -3.64334448
+        },
+        {
+            "name" : "La Clavette Croix-Fort Retour",
+            "id" : 23,
+            "latitude":  46.13639,
+            "longitude":  -1.014552,
+            "altitude" : 84.1948,
+            "yaw": 2.95084
+        },
+        {
+            "name" : "La Clavette Croix-Fort Aller",
+            "id" : 24,
+            "latitude":  46.136406,
+            "longitude":  -1.014847,
+            "altitude" : 83.8327,
+            "yaw": -0.177569
+        },
+        {
+            "name" : "Clavette Les Massardes Aller",
+            "id" : 25,
+            "latitude":  46.140454,
+            "longitude":  -1.033596,
+            "altitude" : 70.42519,
+            "yaw": -0.5318991
+        },
+        {
+            "name" : "Clavette Les Massardes Retour",
+            "id" : 26,
+            "latitude":   46.140324,
+            "longitude":   -1.033089,
+            "altitude" : 70.345,
+            "yaw": 2.651234
+        },
+
+
+        {
+            "name" : "Clavette Mairie Aller",
+            "id" : 27,
+            "latitude": 46.138993,
+            "longitude": -1.027485,
+            "altitude" : 73.670479443,
+            "yaw": -0.202956
+        },
+
+        {
+            "name" : "Clavette Mairie Retour",
+            "id" : 28,
+            "latitude": 46.138918,
+            "longitude": -1.026919707,
+            "altitude" : 73.799574014,
+            "yaw": -3.3972529
+        },
+        {
+            "name" : "Croix-Chapeau-Boulangerie Aller",
+            "id" : 29,
+            "latitude": 46.109433,
+            "longitude": -1.006551,
+            "altitude" : 74.2161,
+            "yaw": -0.325044
+        },
+        {
+            "name" : "Croix-Chapeau-Boulangerie Retour",
+            "id" : 30,
+            "latitude": 46.109477,
+            "longitude": -1.006536,
+            "altitude" : 74.2826,
+            "yaw": 2.83542
+        },
+        {
+            "name" : "Croix-Chapeau-Rue du Chat Aller",
+            "id" : 31,
+            "latitude": 46.11108,
+            "longitude": -1.010807,
+            "altitude" : 68.22697,
+            "yaw": -0.6675436
+        },
+        {
+            "name" : "Croix-Chapeau-Rue du Chat Retour",
+            "id" : 32,
+            "latitude": 46.111201,
+            "longitude": -1.010913,
+            "altitude" : 67.5455,
+            "yaw": 2.4421482
+        },
+        {
+            "name" : "La Jarrie-Chassagné",
+            "id" : 33,
+            "latitude": 46.131861,
+            "longitude": -1.044298,
+            "altitude" : 67.0955,
+            "yaw": -3.0298526
+        },
+        {
+            "name" : "Gare La Jarrie Aller ",
+            "id" : 34,
+            "latitude":   46.119200,
+            "longitude":   -1.024581,
+            "altitude" : 59.9968,
+            "yaw": -1.68061
+        },
+        {
+            "name" : "Gare La Jarrie Retour",
+            "id" : 35,
+            "latitude":   46.119157,
+            "longitude":   -1.024471,
+            "altitude" : 60.0603,
+            "yaw": 1.44045
+        },
+        {
+            "name" : "La Jarrie Les Abeilles",
+            "id" : 36,
+            "latitude": 46.129691,
+            "longitude": -1.002503,
+            "altitude" : 84.629,
+            "yaw": 0.561489
+        },
+        {
+            "name" : "La Jarrie-Les Deux Moulins Retour",
+            "id" : 37,
+            "latitude": 46.132311253,
+            "longitude": -1.01376807,
+            "altitude" : 86.3914,
+            "yaw": 0.6707632687
+        },
+        {
+            "name" : "La Jarrie-Les Deux Moulins Aller",
+            "id" : 38,
+            "latitude": 46.132315,
+            "longitude": -1.013808,
+            "altitude" : 86.4207,
+            "yaw": -2.47551
+        },
+        {
+            "name" : "P+R Saint Rogatien",
+            "id" : 39,
+            "latitude": 46.148585,
+            "longitude": -1.062803,
+            "altitude" : 72.5095,
+            "yaw": 2.87451
+        },
+        {
+            "name":"Le Treuil Arnaudeau Aller",
+            "id" : 40,
+            "latitude": 46.170911680544485,
+            "longitude": -1.004236934373425,
+            "altitude":87.04842844847371,
+            "yaw":1.07015
+        },
+        {
+            "name":"Le Treuil Arnaudeau Retour",
+            "id" : 41,
+            "latitude": 46.171068,
+            "longitude": -1.00415,
+            "altitude": 86.809304,
+            "yaw": -2.07049
+        },
+        {
+            "name":"Montroy L'aubertiere Retour",
+            "id" : 42,
+            "latitude": 46.156356,
+            "longitude": -0.98705,
+            "altitude": 71.501222,
+            "yaw": -2.763452609148411
+        },
+        {
+            "name":"Montroy L'aubertiere Aller",
+            "id" : 43,
+            "latitude": 46.156311,
+            "longitude": -0.987118,
+            "altitude": 71.501223,
+            "yaw": 0.431134
+
+        },
+        {
+            "name":"Salle sur Mer Bourg",
+            "id":44,
+            "latitude":46.1050976,
+            "longitude":-1.054008,
+            "altitude":52.7041246,
+            "yaw":0.513843
+        },
+        {
+            "name":"Salle sur Mer Les Monrois Retour",
+            "id":45,
+            "latitude":46.106735,
+            "longitude":-1.05961,
+            "altitude":54.708591,
+            "yaw": 2.91537
+        },
+        {
+            "name":"Salle sur Mer Les Monrois Aller",
+            "id":46,
+            "latitude":46.106642,
+            "longitude":-1.0592639,
+            "altitude":54.6404732,
+            "yaw":-0.24079
+        },
+        {
+            "name":"Saint-Christophe Le Moulin neuf Aller",
+            "id":47,
+            "latitude":46.1580877,
+            "longitude":-0.950077,
+            "altitude":66.8956347,
+            "yaw":-1.49899
+        },
+
+        {
+            "name":"Saint-Christophe Le Moulin neuf Retour",
+            "id":48,
+            "latitude":46.1580385,
+            "longitude":-0.950024,
+            "altitude":67.0367864,
+            "yaw":-4.60550822
+        },
+
+        {
+            "name":"Fontpatour - Le Pontreau",
+            "id":49,
+            "latitude":46.1778634,
+            "longitude":-0.956387,
+            "altitude":59.46311138,
+            "yaw":-0.67071025
+        },
+        {
+            "name" : "Saint Medard Val-Pastour Aller",
+            "id" : 50,
+            "latitude": 46.158690520599734,
+            "longitude": -0.9764609443828078,
+            "altitude" : 74.72078,
+            "yaw": -3.31547589
+        },
+        {
+            "name" : "Saint Medard Val-Pastour Retour",
+            "id" : 51,
+            "latitude": 46.15867,
+            "longitude": -0.976501,
+            "altitude" : 74.82078,
+            "yaw": -0.142724
+        },
+        {
+            "name":"Salle sur Mer Eglise Aller",
+            "id":52,
+            "latitude":46.104304,
+            "longitude":-1.052568,
+            "altitude":51.448718,
+            "yaw":-1.8490165
+        },
+        {
+            "name":"Salle sur Mer Eglise Retour",
+            "id":53,
+            "latitude":46.104555,
+            "longitude":-1.05242,
+            "altitude":51.6500161,
+            "yaw":1.28266
+        },
+        {
+            "name":"Salle sur Mer Collet Aller",
+            "id":54,
+            "latitude":46.0999498,
+            "longitude":-1.054036,
+            "altitude":54.696575,
+            "yaw":-1.779037282
+        },
+        {
+            "name":"Salle sur Mer Collet Retour",
+            "id":55,
+            "latitude":46.099965,
+            "longitude":-1.053987,
+            "altitude":54.21796,
+            "yaw":1.387192
+        },
+        {
+            "name":"Salle sur Mer La Frénée",
+            "id":56,
+            "latitude":46.0958278,
+            "longitude":-1.057995,
+            "altitude":56.10465,
+            "yaw":0.4274696
+        },
+        {
+            "name":"Puyvineux",
+            "id":57,
+            "latitude":46.127444,
+            "longitude":-0.984397,
+            "altitude":82.51901,
+            "yaw":-0.493997
+        },
+        {
+            "name":"Collège F Dolto Repos",
+            "id":58,
+            "latitude":46.13123503,
+            "longitude":-1.001415302,
+            "altitude":84.12251039,
+            "yaw":2.5505463
+        },
+        {
+            "name":"Saint-Christophe Stade Repos",
+            "id":59,
+            "latitude":46.14166,
+            "longitude":-0.943926,
+            "altitude":54.6404732,
+            "yaw":-0.24079
+        },
+        {
+            "name":"Saint-Médard - Cimetière Repos",
+            "id":60,
+            "latitude":46.157269,
+            "longitude":-0.963284,
+            "altitude":54.6404732,
+            "yaw":-0.24079
+        },
+        {
+            "name":"Bourgneuf - Calvaire Repos",
+            "id":61,
+            "latitude":46.170031,
+            "longitude":-1.016413,
+            "altitude":54.6404732,
+            "yaw":-0.24079
+        },
+        {
+            "name":"Dépôt Yélo Deta",
+            "id":62,
+            "latitude":46.123697,
+            "longitude":-1.045719,
+            "altitude":64.2322653,
+            "yaw":-0.3777279
+        },
+        {
+            "name":"PARKING LES DEUX MOULINS - LA JARRIE",
+            "id":63,
+            "latitude":46.132280,
+            "longitude":-1.013421,
+            "altitude":64.2322653,
+            "yaw":-0.3777279
+        },
+        {
+            "name":"PARKING RUE DU SOLEIL - SAINT MEDARD",
+            "id":64,
+            "latitude":46.136483,
+            "longitude":-1.005307,
+            "altitude":64.2322653,
+            "yaw":-0.3777279
+        },
+        {
+            "name":"Reprise de Mairie La Jarrie",
+            "id":65,
+            "latitude":46.129744,
+            "longitude":-1.007608,
+            "altitude":84.9312,
+            "yaw":2.1425819
+        }
+
+    ]
+}
+ 
+
