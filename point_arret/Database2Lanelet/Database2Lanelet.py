@@ -102,9 +102,10 @@ def mgrs2LatLong(mgrs_grid,xMgrs,yMgrs):
 	return c_Lat, c_Long
 
 
-def addBusPoint (rootLanelet,nom_arret, c_xMgrs,c_yMgrs,altitude,color="red") :
+def addBusPoint (rootLanelet,nom_arret,c_xMgrs,c_yMgrs,altitude,color="red",c_Lat=0.0,c_Long=0.0,) :
 	global max_id
-	c_Lat,c_Long = mgrs2LatLong(mgrs_grid,c_xMgrs,c_yMgrs)
+	if c_Lat == 0.0 or c_Long == 0.0:
+		c_Lat,c_Long = mgrs2LatLong(mgrs_grid,c_xMgrs,c_yMgrs)
 	max_id += 1 
 	# print(nom_arret,c_Lat,c_Long)
 	add_node(rootLanelet,id_n=max_id,lat=c_Lat,lon=c_Long,ele=altitude,
@@ -172,9 +173,6 @@ for point_arret in points_arret:
 			yaw = point_arret["yaw"]
 			isYaw = True
 			yaw = yaw-(math.pi)
-			# yaw = (math.pi)-yaw # TODO
-
-			# print(yaw)
 		except:
 			print("Pas de donness yaw indiqué dans la base de donnees")
 			break
