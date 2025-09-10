@@ -22,7 +22,7 @@ def kill(proc_pid):
     process.kill()
 
 def enregistement_traj(r_rosbag,r_sorite):
-    c_rosbag = "ros2 bag play -r 100 "+r_rosbag
+    c_rosbag = "ros2 bag play -r 100 "+r_rosbag+" --topics /tf /tf_static "
     c_txt = f"ros2 topic echo /tf >> {r_sorite}traj.txt"
     global processe1
     processe2 = subprocess.Popen(c_txt, shell=True, stdout=subprocess.PIPE) 
