@@ -9,9 +9,9 @@ import time
 #########################################################################################################
 
 
-input_traj = "/home/hongyu/Downloads/Traj_larochlle_Nord/rosbag2_2024_10_31-13_43_28/traj.csv"
-input_lanelet2 = "/home/hongyu/Downloads/Lanelet2/Lanelet2_git_ws/yeloData/lanelet2_map_YeloDeta_Total_V3.osm"
-
+input_traj = "/home/admin01/MyGit_ws/Outils_VA/optimisation_laneletMap_axeZ/optimisseur_KNN/traj.csv"
+input_lanelet2 = "/home/admin01/MyGit_ws/Outils_VA/optimisation_laneletMap_axeZ/optimisseur_KNN/Test.osm"
+filtrageConvolution = True
 
 #########################################################################################################
 
@@ -20,7 +20,7 @@ input_lanelet2 = "/home/hongyu/Downloads/Lanelet2/Lanelet2_git_ws/yeloData/lanel
 def filtre_1d(n):
     return np.ones(n)*(1/n) , n
 
-def convolution_1d_padding(input,kernel=10,mode="full"):
+def convolution_1d_padding(input,kernel=3,mode="full"):
 	"""
 	entree: tableau 1d (python-list)
 	sortie :tableau convolué 1d (python-list)
@@ -92,17 +92,27 @@ def matching_traj_lanelet(input_traj,points_lanelet) ->dict:
 	# return dico_id_z
 	print_reussi("Les fichiers sont bien chargés")
 
-	
-	"""
-	# gilsser le trajectoire ci besoin (avec convolution_1d_padding) TODO
-	# zlist_traj_N = convolution_1d_padding(zlist_traj)
-	# for i in range(len(points_traj)) :
-	# 	points_traj[i][2] = zlist_traj_N[i]
 
-	# y2 = np.array( zlist_traj_N )
-	# plt.subplot(2,1,2)
-	# plt.plot(x, y2, color = 'g')
-	"""
+	# gilsser le trajectoire ci besoin (avec convolution_1d_padding) TODO
+	if filtrageConvolution :
+		zlist_traj_N = convolution_1d_padding(zlist_traj)
+		for i in range(len(points_traj)) :
+			points_traj[i][2] = zlist_traj_N[i]
+
+		y2 = np.array( zlist_traj_N )
+		plt.subplot(2,1,2)
+		plt.plot(x, y2, color = 'g')
+		# print((y2==y).all())
+		correction = (y2==y)
+		points = 0
+		for i in range (0,np.size(correction,0)):
+			if correction[i] == True :
+				points += 1
+			pass
+		print(y2[15])
+		print(y[15])
+
+
 
 
 	plt.show()
